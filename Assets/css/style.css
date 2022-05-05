@@ -1,0 +1,41 @@
+body {
+  background-color: black;
+}
+
+.navegador {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navegador img {
+  width: 100px;
+  height: 100px;
+}
+
+.navegador h1 {
+  color: aqua;
+}
+
+.identidad {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: black;
+}
+
+.identidad h2 {
+  color: aqua;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 500px;
+}
+/*# sourceMappingURL=style.css.map */
