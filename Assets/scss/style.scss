@@ -1,3 +1,5 @@
+@import '_djs.scss';
+@import '_variables.scss';
 body{
     background-color: black;
 }
@@ -23,3 +25,8 @@ body{
         margin-left: 500px;
     }
     }
+.etiquetas{
+    display: flex;
+    margin-top: 5px;
+    text-align: center;
+}

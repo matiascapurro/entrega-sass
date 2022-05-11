@@ -1,0 +1,8 @@
+.etiquetaDj{
+    display: flex;
+    background-color: $colorPrincipal;
+    @extend .etiquetaDj;
+    .p{
+        text-align: center;
+    }
+}
