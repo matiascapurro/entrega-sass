@@ -1,32 +1,8 @@
-@import '_djs.scss';
-@import '_variables.scss';
-body{
-    background-color: black;
-}
-.navegador{
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    img{
-        width: 100px;
-        height: 100px;
-    }
-    h1{
-        color: aqua;
-    }
-}
-.identidad{
-    display: flex;
-    background-color: black;
-    h2{
-        color: aqua;
-        justify-content: center;
-        margin-left: 500px;
-    }
-    }
-.etiquetas{
-    display: flex;
-    margin-top: 5px;
-    text-align: center;
-}
+@import 'variables';
+@import 'mixin';
+@import 'dj';
+@import'etiquetas';
+@import'general';
+@import'navegador';
+@import 'identidad';
+@import 'servicios';

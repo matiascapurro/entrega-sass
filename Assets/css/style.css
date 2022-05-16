@@ -1,5 +1,59 @@
-@impo body {
+.etiquetaDj {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #0000;
+  padding: 20px;
+  margin: 31px;
+  border: solid;
+  border-radius: 15px;
+  border-color: white;
+}
+
+.etiquetaDj img {
+  width: 50%;
+}
+
+.etiquetaDj .textoDj {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.etiquetaDj .textoDj h2 {
+  -ms-grid-column-align: start;
+      justify-self: start;
+}
+
+.etiquetaDj .textoDj p {
+  padding-top: 200px;
+  padding: 10px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.etiquetas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5px;
+  text-align: center;
+}
+
+* {
   background-color: black;
+  margin: 0;
+  padding: 0;
+  color: aqua;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .navegador {
@@ -39,11 +93,13 @@
   margin-left: 500px;
 }
 
-.etiquetas {
+.videoServicios {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 5px;
-  text-align: center;
+}
+
+video {
+  width: 90%;
 }
 /*# sourceMappingURL=style.css.map */
